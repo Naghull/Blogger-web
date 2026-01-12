@@ -1,0 +1,103 @@
+
+
+.preview-page {
+  min-height: 100vh;
+ 
+}
+
+.preview-header {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+
+}
+
+.preview-content {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 0px;
+  
+  border-radius: 12px;
+
+}
+
+
+
+
+.preview-main-img {
+ 
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 9px;
+  margin-bottom: 30px;
+  width: 806px;
+height: 378px;
+
+}
+
+.preview-title {
+ 
+
+margin-bottom: 10px;
+color: rgba(63, 66, 84, 1);
+font-family:Roboto-Regular;
+font-size: 22px;
+font-weight: 400;
+
+}
+
+.preview-text {
+
+
+  color: #444;
+  white-space: pre-wrap;
+
+color: rgba(94, 98, 120, 1);
+font-family:Roboto-Regular;
+font-size: 16px;
+font-weight: 400;
+
+}
+
+
+@media (max-width: 768px) {
+  .preview-header {
+    padding: 15px 20px;
+  }
+
+  .preview-content {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .preview-title {
+    font-size: 24px;
+  }
+
+  .preview-text {
+    font-size: 14px;
+  }
+}
+
+.card{
+  margin: auto;
+  width: 867px;
+height: 762px;
+box-shadow: rgba(0, 0, 0, 0.03) 0 3px 4px 0;
+}
+
+.back{
+  width: 95px;
+height: 38px;
+
+margin-left: 0px;
+border-radius: 6px;
+background-color: rgba(241, 241, 242, 1);
+
+color: rgb(113, 121, 167);
+
+font-size: 14px;
+font-weight: 400;
+}

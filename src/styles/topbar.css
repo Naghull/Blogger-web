@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+}
+
+.topbar {
+  width: 95%;
+  height: 76px;
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.logo {
+  width: 44px;
+  height: 20px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.logobar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-link,
+.btn-dash,
+.btn-post {
+  width: 116px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: rgb(19, 19, 19);
+  color: rgb(255, 255, 255);
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.btn-link:hover, .btn-link:focus, .btn-link:active,
+.btn-dash:hover,
+.btn-dash:focus,
+.btn-dash:active,
+.btn-post:hover,
+.btn-post:focus,
+.btn-post:active {
+  background-color: rgb(36, 36, 36) !important;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  border: none;
+}
+
+.top-profile {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background-color: azure;
+  cursor: pointer;
+}
+
+
